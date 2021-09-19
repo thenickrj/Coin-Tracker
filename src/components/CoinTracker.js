@@ -56,16 +56,8 @@ const Container = styled.div`
     width: 100px;
     height: 30px;
     box-shadow: rgba(0, 0, , 0.15) 1.95px 1.95px 2.6px;
-    ${
-      "" /* -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in; */
-    }
     color: #7050d8fa;
-    ${"" /* background-color: #7d77b8; */}
-    background: linear-gradient(
-45deg,#ffffff,#d2c3d2a1);
+    background: linear-gradient(45deg, #ffffff, #d2c3d2a1);
     z-index: 1;
   }
 
@@ -74,16 +66,13 @@ const Container = styled.div`
   }
 
   tr:hover {
-    ${"" /* transition: all 0.8s ease-out; */}
-    ${"" /* transition: all 0.3s linear 0s; */}
-
-    ${"" /* transform: scale(1.2); */}
     background: linear-gradient(45deg, #3b5ba9, #7050d8fa);
   }
 
   table tr th:first-child {
     border-top-left-radius: 15px;
   }
+
   table tr th:nth-child(7) {
     border-top-right-radius: 15px;
   }
@@ -91,7 +80,7 @@ const Container = styled.div`
   .container {
     background: white;
     width: 90%;
-    /* margin: auto; */
+    overflow-x: auto;
     height: fit-content;
     margin: 5%;
     border-radius: 25px;
@@ -107,7 +96,6 @@ const Container = styled.div`
     background: white;
     width: 80px;
     margin: -20% 20%;
-    ${"" /* position: absolute; */}
   }
 
   h5 {
@@ -117,19 +105,6 @@ const Container = styled.div`
   h5:hover {
     background: #7a61e2;
     color: white;
-  }
-
-  ${
-    "" /* .drop_contain {
-    position: relative;
-    margin-left: 80%;
-  }
-
-  .drop_contain2 {
-    position: relative;
-    margin-left: 80%;
-    margin-bottom: 20%;
-  } */
   }
 
   .flex_contain {
@@ -149,7 +124,6 @@ const Container = styled.div`
   input[type="text"]::placeholder {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    ${"" /* font-size: 20px; */}
     color: black;
   }
 
