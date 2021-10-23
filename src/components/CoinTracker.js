@@ -155,7 +155,7 @@ function CoinTracker() {
     } else if (num > 1000000 && num < 1000000000) {
       return num / 1000000 + "M"; // convert to M for number from > 1 million
     } else if (num < 1000000000000 && num >= 1000000000) {
-      return (num / 1000000000).toFixed(1) + "B";
+      return (num / 1000000000).toFixed(1) + "B"; // convert to B for number from >= 1 billion
     } else if (num >= 1000000000000) {
       return (num / 1000000000000).toFixed(1) + "T";
     } else if (num < 900) {
